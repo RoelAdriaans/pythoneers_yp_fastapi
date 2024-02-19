@@ -4,5 +4,9 @@ app = FastAPI()
 
 
 @app.get("/")
-async def root():
+async def root(args):
+    foo = None
     return {"message": "Hello World"}
+
+
+
