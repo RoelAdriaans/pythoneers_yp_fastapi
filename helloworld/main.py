@@ -11,4 +11,3 @@ async def root():
 @app.get("/about")
 async def about(args):
     return {"message": "About the project"}
-
